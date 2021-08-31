@@ -1,0 +1,41 @@
+#header{
+    text-align: center;
+}
+#todo-form{
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#todo-form input {    
+    font-size: 24px;
+}
+
+#todo-list {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.card{
+    box-shadow: 0 0 5px rgb(112, 110, 110);
+    padding: 8px;
+    margin: 16px;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.todo-message {
+    margin: 0;
+    font-size: 32px;
+}
+body{
+    background-color: blanchedalmond;
+}
+.fas{
+    margin: 15px 5px 0px 0px;
+}
+.fas:hover{
+    cursor: pointer;
+}
